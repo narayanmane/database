@@ -1,0 +1,16 @@
+#def factor(n):
+ #   fact =1
+  #  for i in (1,n+1):
+   #     fact=fact*i
+    #print(fact)
+import math
+t=int(input())
+
+while(t>0):
+    n=int(input())
+    print(math.factorial(n))
+ #   factor(n)
+    
+    t-=1
+    
+    
