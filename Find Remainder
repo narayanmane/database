@@ -1,0 +1,9 @@
+def rem(n,k):
+    re=n%k
+    print(re)
+
+t=int(input())
+while(t>0):
+    n,k=map(int,input().split())
+    rem(n,k)
+    t-=1
