@@ -1,0 +1,9 @@
+t=int(input())
+lst=[]
+while(t>0):
+    n=int(input())
+    lst.append(n)
+    t-=1
+lst.sort()
+for i in lst:
+    print(i)
